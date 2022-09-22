@@ -1,0 +1,162 @@
+@font-face {
+    font-family: futuraptbook;
+    src: url(../fonts/futuraptbook.ttf);
+}
+@font-face {
+    font-family: futuraptdemi;
+    src: url(../fonts/futuraptdemi.ttf);
+}
+body{
+    background: black;
+}
+.block {display: block;}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.vlogo{
+    width: 10%;
+    height: 17%;
+}
+.logo{
+    width: 2%;
+    height: 4%;
+}
+.logo:active {
+    width: 1.8%;
+    height: 3.6%;
+}
+.p1{
+    color:white;
+    font-size: 1.3vw;
+    text-align: center;
+    width: 35%;
+    line-height: 2vw;
+    font-family: futuraptbook;
+    margin-bottom: 5%;
+}
+.th1 {
+    color:white;
+    font-size: 1.7vw;
+    font-family: futuraptdemi;
+    padding-bottom: 3.5%;
+}
+.under{
+    text-decoration: none; 
+    position: relative; 
+}
+.under:after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    bottom: -4px; 
+    width: 75%;
+    background: #54B3A1;
+    left: 0px;
+}
+.age {
+    font-size: 0.8vw;
+    text-align: left;
+    font-family: futuraptdemi;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.input {
+  width: 75%;
+  height: 3vw;
+  border: 2px solid #FFFFFF;
+  background: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(#54B3A1, #54B3A1);
+  background-position: 12px 12px;
+  background-repeat: no-repeat;
+  box-shadow: 14px 14px 0px 0px #54B3A1;
+  margin-right: 40px;
+  color: white;
+  font-size: 1vw;
+  font-family: futuraptbook;
+  text-align: center;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 0px 0px black;
+  width: 100%;
+  background-image: linear-gradient(transparent, transparent);
+}
+
+.input:valid {
+  box-shadow: 14px 14px 0px 0px #54B3A1;
+  background-image: linear-gradient(#54B3A1, #54B3A1);
+  background-position: 12px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 0px;
+}
+.btn {
+    color:white;
+    font-size: 0.7vw;
+    font-family: futuraptdemi;
+    border-radius: 27px;
+    background: #D94016;
+    width: 40%;
+    height: 2.5vw;
+    margin-top: 7%;
+    cursor: pointer;
+}
+.btn:active {
+    background:#8f3218
+}
+
+.ftr{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+
+
+.cookiesdiv {
+    border: 1px solid white;
+    padding: 0.5%;
+    bottom: 0px;
+    width: 50%;
+}
+.pcook{
+    width: 95%;
+    font-size: 0.79vw;
+    text-align: left;
+    color: white;
+    font-family: futuraptbook;
+}
+
+.ckbtn1 {
+    border-radius: 27px;
+    background: #54B3A1;
+    width: 4vw;
+    height: 1.6vw;
+    color: white;
+    font-family: futuraptdemi;
+    font-size: 0.7vw;
+    cursor: pointer;
+}
+.ckbtn1:active {
+    background: #428176;
+}
+
+.ckbtn2 {
+    border: 1px solid white;
+    border-radius: 27px;
+    background: black;
+    width: 7vw;
+    height: 1.4vw;
+    color: white;
+    font-family: futuraptdemi;
+    font-size: 0.7vw;
+    cursor:pointer;
+}
+
+.ckbtn2:active {
+    background: rgb(77, 73, 73);
+}

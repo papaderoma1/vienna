@@ -1,0 +1,817 @@
+@font-face {
+    font-family: futuraptmedium;
+    src: url(../fonts/futuraptmedium.ttf);
+}
+@font-face {
+    font-family: futuraptbook;
+    src: url(../fonts/futuraptbook.ttf);
+}
+@font-face {
+    font-family: futuraptdemi;
+    src: url(../fonts/futuraptdemi.ttf);
+}
+@font-face {
+    font-family: futuraptlight;
+    src: url(../fonts/futuraptlight.otf);
+}
+body{
+    background: rgb(26, 24, 24);
+    color: white;
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0, 0.8))
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    color: white;
+}
+
+
+
+.div1{
+    background-image: url(../images/Group\ 10.png);
+}
+.htext{
+    margin-right: 3%;
+    font-family: futuraptmedium;
+    font-size: 0.75vw;
+    transition: text-decoration 0.3s;
+    display: inline-block;
+    position: relative;
+}
+.htext:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #54B3A1;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  }
+.htext:hover:after {
+    width: 100%; 
+    left: 0; 
+}
+
+.logo1{
+    margin-right: 10%;
+    height: 7%;
+    width: 8%;
+}
+
+.logo2{
+    margin-right: 1.5%;
+}
+
+.scrollmenu {
+    position: fixed;
+    display: none;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    z-index: 999;
+}
+
+.hunder {
+    text-decoration: underline 2px solid #54B3A1;
+    text-underline-offset: 5px;
+}
+.logoscroll {
+    width: 300px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.htextscroll{
+    margin-right: 3%;
+    font-family: futuraptmedium;
+    font-size: 0.75vw;
+    transition: text-decoration 0.3s;
+    display: inline-block;
+    position: relative;
+}
+#greenline{
+    position:relative;
+    width: 65%;
+    height: 5.5%;
+    background-color: #54B3A1;
+    margin-top: 30%;
+    margin-left: 39%;
+    z-index: 1;
+}
+.div2{
+    width: 35%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0, 0.8));
+    margin-left: 15%;
+    margin-top: 11%;
+    padding-top: 1px;
+}
+
+.pdiv2{
+    position: relative;
+    font-family: futuraptbook;
+    font-size: 5.2vw;
+    letter-spacing: -2px;
+    margin: 5.5%;
+    margin-top: -32.5%;
+    z-index: 5;
+}
+.btn1 {
+    font-family: futuraptdemi;
+    margin: 0px 5% 5% 5%;
+    width: 29%;
+    height: 6%;
+    background-color: #f34213;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    font-size: 0.75vw;
+
+}
+
+.btn1:hover {
+    background-color:#d43b10
+}
+
+.lines {
+    text-align: center;
+    font-size: 1.8vw;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-top: 7%;
+    padding-bottom: 13%;
+}
+
+.lines span{
+    color: #54B3A1;
+}
+
+.arrow1 {
+    transform: scaleX(-1);
+    font-weight: bold;
+    float: left;
+    margin-left: 2%;
+    margin-top: -10%;
+}
+
+.arrow2 {
+    font-weight: bold;
+    float: right;
+    margin-right: 2%;
+    margin-top: -10%;
+}
+
+.arrow1:hover, .arrow2:hover {
+    color: #54B3A1;
+}
+
+
+.div3 {
+    display: block;
+    margin-top: -4%;
+    transform: skewY(-2deg);
+    background-color: #54B3A1;
+    padding: 5.5%;
+}
+
+
+.div3p {
+    font-family: futuraptlight; 
+    font-size: 3vw;
+    text-align: center;
+    height: 48%;
+    width: 60%;
+    margin: auto;
+    transform: skewY(2deg);
+    margin-top: 5.5%;
+}
+
+.div4{
+    text-align: center;
+    transform: skewY(2deg);
+}
+
+.vertline {
+    margin: auto;
+    height: 14.4%;
+    width: 1.5%;
+    background-color: #54B3A1;
+    margin-top: -6.6%;
+}
+
+.vertline2 {
+    margin: auto;
+    height: 14.4%;
+    width: 1.5%;
+    background-color: #54B3A1;
+    margin-top: -4%;
+}
+
+.glass{
+    height:1.5%;
+    width:2%;
+}
+
+.divss {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    line-height: 2px;
+}
+  
+.letters {
+    text-align: center;
+    margin-top: -0.3%;
+    font-family: futuraptdemi;
+}
+.small {
+    font-family: futuraptdemi;
+    font-size: 0.76vw;
+    letter-spacing: 1.5px;
+    margin-top: 18%;
+    margin-bottom: 20%;
+}
+  
+.big {
+    font-family: futuraptdemi;
+    font-size: 2.68vw;
+    margin-top: 18%;
+} 
+
+.small2 {
+    margin-top: 18%;
+    font-size: 0.76vw;
+}
+  
+.big2 {
+    margin-top: 24%;
+    font-size: 2.68vw;
+}
+  
+.semisquarel {
+    position: absolute;
+    margin-right: 16%;
+    margin-top: 7.5%;
+    width: 4%;
+    height: 12%;
+    border-left: rgb(255, 255, 255) solid 2px;
+    border-bottom: rgb(255, 255, 255) solid 2px;
+    border-right: none;
+}
+  
+.semisquarer {
+    margin-top: 7.5%;
+    margin-left: 16%;
+    position: absolute;
+    width: 4%;
+    height: 12%;
+    border-left: none;
+    border-bottom: white solid 2px;
+    border-right: white solid 2px;
+}
+  
+.semisquarel::before {
+    content: "";
+    position: absolute;
+    bottom: 99%;
+    left: -1%;
+    border-top: 2px solid white;
+    width: 75%;
+}
+.semisquarer::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 26%;
+    border-top: 2px solid white ;
+    width: 75%;
+}
+
+.book {
+    width: 3.5%;
+    height: 2.5%;
+}
+  
+.big3 {
+    margin-top: -5%;
+    font-size: 2.68vw;
+}
+.big4 {
+    margin-top: 19%;
+    font-size: 2.68vw;
+}
+
+.drinksdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.drinks{
+    font-family: futuraptmedium;
+    width: 22.1%;
+    height: 9.3vw;
+    font-size: 1.70vw;
+    margin: 1%;
+    text-align: left;
+    vertical-align: bottom;
+    line-height: 14vw;
+    background-position: center;
+    background-size: 100%;
+    transition: 0.3s;
+}
+.backgb{
+    
+    width: 100%;
+    height: 7.7vw;
+    
+}
+.drinks:hover {
+    background-size: 115%;
+    line-height: 12vw;
+    
+}
+.drinks:hover p{
+    color:#54B3A1;
+}
+
+.drinks:hover .backgb{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 60%);
+}
+.baiju{
+    background-image: url(../images/baiju.png);
+}
+.rum{
+    background-image: url(../images/rum.png);
+}
+.whiskey{
+    background-image: url(../images/whiskey.png);
+}
+.gin{
+    background-image: url(../images/gin.png);
+}
+.vodka{
+    background-image: url(../images/vodka.png);
+}
+.liquor{
+    background-image: url(../images/liquor.png);
+}
+.bitter{
+    background-image: url(../images/bitter.png);
+}
+.vertline3{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    height: 11%;
+    width: 1.5%;
+    background-color: #54B3A1;
+}
+
+.bdivcont{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: -16%;
+
+}
+.bdiv {
+    height: 56%;
+    width: 21%;
+    outline: 2px solid black;
+    outline-offset: -0.7vw;
+    margin: 1%;
+}
+
+.smdiv1 {
+    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%), url(../images/whiskeybomb.png);
+    background-size: 100%;
+    background-position: center;
+    height: 54%;
+    width: 100%;
+    transition: 0.3s;
+}
+.smdiv11 {
+    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%), url(../images/secondatomic.png);
+    background-size: 100%;
+    background-position: center;
+    height: 54%;
+    width: 100%;
+    transition: 0.3s;
+}
+.smdiv111 {
+    background:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%), url(../images/headshot.png);
+    background-size: 100%;
+    background-position: center;
+    height: 54%;
+    width: 100%;
+    transition: 0.3s;
+}
+.pbdiv1 {
+    color:black;
+    font-size: 1.25vw;
+    font-family: futuraptdemi;
+    width: 50%;
+    height: 25%;
+    margin-left: -24%;
+    text-underline-offset: 60%;
+    text-decoration-thickness: 2px;
+}
+
+.bdiv:hover u {
+    text-decoration-color:#54B3A1;
+}
+.logodiv {
+    margin-left: 15%;
+    margin-top: 7%;
+}
+.bdiv:hover {
+    outline: 2px solid #54B3A1;
+}
+.bdiv:hover .smdiv1, .bdiv:hover .smdiv11, .bdiv:hover .smdiv111 {
+    background-size: 115%;
+}
+
+.smdiv2 {
+    background: white;
+    height: 45.5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pbdiv2 {
+    color: black;
+    font-size: 0.95vw;
+    font-family: futuraptbook;
+    width: 90%;
+    height: 30%;
+    margin-left: 7.5%;
+    margin-bottom: 7.5%;
+}
+
+.date {
+    font-size: 0.95vw;
+    font-family: futuraptdemi;
+    color: white;
+    margin-top: -4.5%;
+    margin-left: 7.5%;
+}
+
+.readbtn{
+    display: block;
+    width: 21%;
+    height: 5%;
+    background-color: #f34213;
+    border-radius: 40px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    margin-bottom: 7.5%;
+}
+
+.txt1 {
+    color: white;
+    font-size: 0.75vw;
+    font-family: futuraptdemi;
+}
+
+.txt2 {
+    display: none;
+    color: white;
+    font-size: 0.75vw;
+    font-family: futuraptdemi;
+}
+
+.readbtn:hover .txt1{
+    display: none;
+}
+
+.readbtn:hover .txt2{
+    display: block;
+}
+
+.readbtn:hover{
+    width: 18%;
+}
+
+.camera {
+    height:2%;
+    width:3%;
+}
+
+.big22 {
+    margin-top: 19%;
+    font-size: 2.68vw;
+    margin-bottom: 45%;
+}
+  
+.semisquarel2 {
+    position: absolute;
+    margin-right: 21%;
+    margin-top: 9.5%;
+    width: 6%;
+    height: 15%;
+    border-left: rgb(255, 255, 255) solid 2px;
+    border-bottom: rgb(255, 255, 255) solid 2px;
+    border-right: none;
+}
+  
+.semisquarer2 {
+    margin-top: 9.5%;
+    margin-left: 21%;
+    position: absolute;
+    width: 6%;
+    height: 15%;
+    border-left: none;
+    border-bottom: white solid 2px;
+    border-right: white solid 2px;
+}
+  
+.semisquarel2::before {
+    content: "";
+    position: absolute;
+    bottom: 99%;
+    left: -1%;
+    border-top: 2px solid white;
+    width: 125%;
+}
+.semisquarer2::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: -1%;
+    border-top: 2px solid white ;
+    width: 125%;
+}
+
+.gallerytable{
+    width: 100%;
+    border-spacing: 2vw;
+}
+.imgbig {
+    width: 100%;
+    height: 32.1vw;
+}
+
+
+.imgsmall {
+    width: 100%;
+    height: 15vw;
+}
+
+.takebtn{
+    display: block;
+    width: 14%;
+    height: 5%;
+    background-color: #f34213;
+    border-radius: 40px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    color: white;
+    font-size: 0.75vw;
+    font-family: futuraptdemi;
+}
+
+.takebtn:hover {
+    background-color:#d43b10;
+}
+
+.bestspirts {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4vw;
+    font-family: futuraptbook;
+    color: white;
+    width: 45%;
+}
+
+.bestcontainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12.5%;
+}
+
+.bestimg {
+    width: 60%;
+    height: 35%;
+}
+
+.bestt {
+    width: 18.5%;
+    height: 28vw;
+    border-left: 1px solid white;
+    padding: 2% 2% 2% 2%;
+    margin-left: 7.5%;
+}
+
+.bestp {
+    font-size: 1.6vw;
+    font-family: futuraptdemi;
+    color: white;
+    position: relative;
+}
+
+.bestp:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: #54B3A1;
+    left: 0px;
+    bottom: -3px;
+}
+
+.bestdef {
+    width: 90%;
+    font-size: 1.25vw;
+    color: white;
+    font-family: futuraptbook;
+}
+
+.bestfind {
+    font-size: 1vw;
+    color: white;
+    font-family: futuraptmedium;
+    transition: 0.3s;
+}
+
+.bestspan {
+    transition: 0.3s;
+}
+
+.bestfind:hover {
+    color:#54B3A1;
+}
+
+.bestfind:hover .bestspan {
+    color:#54B3A1;
+    margin-left: 5%;
+}
+
+.othercontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.newworld {
+    background-image: url(../images/newworld.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.ginmoment {
+    background-image: url(../images/ginmoment.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.connoisseur {
+    background-image: url(../images/connoisseur.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+.otherdiv{
+    height: 480px;
+    width: 400px;
+    transition: 0.2s ease-in;
+    margin: 20px;
+    outline: 2px solid transparent;
+    outline-offset: -20px;
+}
+
+.otherdiv:hover {
+    background-size: 115%;
+    outline: 2px solid #54B3A1;
+    
+}
+
+
+.pother {
+    font-family: futuraptdemi;
+    font-size: 1.6vw;
+    color: white;
+    margin-top: 97%;
+    margin-left: 5%;
+    width: 46%;
+    vertical-align: text-bottom;
+    transition: 0.2s;
+    position: relative;
+}
+.otherdiv:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 1.7%;
+    background: #54B3A1;
+    margin-left: 1.1%;
+    margin-top: -1.7%;
+}
+
+.otherdiv:hover:after {
+    display: none;
+}
+.otherdiv:hover .pother {
+    margin-top: 93%;
+    margin-left: 10%;
+}
+
+.parrow{
+    position: absolute;
+    color:#54B3A1;
+    margin-top: -3%;
+    margin-left: 18%;
+    font-size: 1.2vw;
+    display: none;
+
+}
+
+.otherdiv:hover .parrow{
+    display: block;
+}
+
+footer {
+    width: 100%;
+    height: 44%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(black, black);
+    background-position: 0px 120px;
+    background-repeat: no-repeat;
+    margin-top: 11.5%;
+    margin-left: -0.4%;
+    box-shadow: 0px 60px 0px 0px #000000;
+}
+
+footer:before {
+    content:"";
+    position:absolute;
+    top: 15%;
+    height:15%;
+    left:0;
+    right:0;
+    background:linear-gradient(to bottom right, transparent 49%, black 50%);
+   }
+
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40%;
+    margin-top: 10.5%;
+}
+
+.space {
+    margin-left: 15%;
+    font-family: futuraptmedium;
+    font-size: 0.8vw;
+}
+
+.footlogo {
+    margin-top: 3.5%;
+}
+
+.bottomf {
+    margin-top: 5%;
+    padding-bottom: 1%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: gray;
+    background: black;
+}
+
+
+
+
+
